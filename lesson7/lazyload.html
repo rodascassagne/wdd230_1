@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Load image</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        data-src="images/1.jpg"
+        width="300"
+        height="400"
+        alt="green plant"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        width="300"
+        height="400"
+        data-src="images/2.png"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        data-src="images/3.jpeg"
+        alt="floral bouquet"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        data-src="images/4.jpeg"
+        alt="orange flower"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        data-src="images/5.jpeg"
+        alt="green leaves"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        data-src="images/6.webp"
+        alt="colorful building"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+  </body>
+</html>
